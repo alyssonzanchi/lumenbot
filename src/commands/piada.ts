@@ -2,17 +2,26 @@ import { Message } from "discord.js";
 
 export const piada = async (message: Message) => {
   try {
-    const res = await fetch(
-      "https://us-central1-kivson.cloudfunctions.net/charada-aleatoria"
-    );
+    const res = await fetch("https://v2.jokeapi.dev/joke/Any?lang=pt");
     const data = await res.json();
 
-    const joke = `${data.pergunta}\n${data.resposta}`;
-    message.reply(joke);
+    if (data.error) {
+      return message.reply(
+        "Não consegui buscar uma piada agora. Tente novamente em breve!"
+      );
+    }
+
+    let jokeText = "";
+
+    if (data.type === "twopart") {
+      jokeText = `${data.setup}\n${data.delivery}`;
+    } else {
+      jokeText = data.joke;
+    }
+
+    message.reply(jokeText);
   } catch (error) {
     console.error("Erro ao buscar piada:", error);
-    message.reply(
-      "Não consegui encontrar uma piada agora. Tente novamente em breve!"
-    );
+    message.reply("Erro ao tentar buscar uma piada. 😥");
   }
 };
