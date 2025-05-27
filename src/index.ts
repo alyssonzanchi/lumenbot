@@ -1,5 +1,6 @@
 import { Client, GatewayIntentBits } from "discord.js";
 import * as dotenv from "dotenv";
+import { ping } from "./commands/ping";
 
 dotenv.config();
 
@@ -19,7 +20,7 @@ client.on("messageCreate", (message) => {
   if (message.author.bot) return;
 
   if (message.content === "!ping") {
-    message.reply("Pong!");
+    ping(message);
   }
 });
 
