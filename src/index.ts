@@ -1,9 +1,8 @@
 import { Client, GatewayIntentBits } from "discord.js";
-import * as dotenv from "dotenv";
-import { ping } from "./commands/ping";
-import { piada } from "./commands/piada";
+import { config } from "dotenv";
+import { commands } from "./commands";
 
-dotenv.config();
+config();
 
 const client = new Client({
   intents: [
@@ -17,15 +16,14 @@ client.once("ready", () => {
   console.log(`🤖 Bot online como ${client.user?.tag}`);
 });
 
-client.on("messageCreate", (message) => {
+client.on("messageCreate", async (message) => {
   if (message.author.bot) return;
 
-  if (message.content === "!ping") {
-    ping(message);
-  }
+  const command = message.content.split(" ")[0];
 
-  if (message.content.startsWith("!piada")) {
-    piada(message);
+  const commandHandler = commands[command];
+  if (commandHandler) {
+    await commandHandler(message);
   }
 });
 
