@@ -1,6 +1,7 @@
 import { Client, GatewayIntentBits } from "discord.js";
 import * as dotenv from "dotenv";
 import { ping } from "./commands/ping";
+import { piada } from "./commands/piada";
 
 dotenv.config();
 
@@ -21,6 +22,10 @@ client.on("messageCreate", (message) => {
 
   if (message.content === "!ping") {
     ping(message);
+  }
+
+  if (message.content.startsWith("!piada")) {
+    piada(message);
   }
 });
 
