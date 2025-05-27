@@ -19,11 +19,11 @@ client.once("ready", () => {
 client.on("messageCreate", async (message) => {
   if (message.author.bot) return;
 
-  const command = message.content.split(" ")[0];
+  const cmd = message.content.split(" ")[0];
+  const command = commands[cmd];
 
-  const commandHandler = commands[command];
-  if (commandHandler) {
-    await commandHandler(message);
+  if (command) {
+    await command(message);
   }
 });
 
