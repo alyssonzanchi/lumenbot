@@ -1,4 +1,5 @@
 import { Message } from "discord.js";
+import { safeSend } from "../utils/safeSend";
 
 type RoletaState = {
   balas: number[];
@@ -52,9 +53,5 @@ export const roleta = async (message: Message) => {
     ].replace("{user}", username);
   }
 
-  if ("send" in message.channel) {
-    await message.channel.send(resposta);
-  } else {
-    console.log("Canal não suporta enviar mensagem");
-  }
+  await safeSend(message.channel, resposta);
 };

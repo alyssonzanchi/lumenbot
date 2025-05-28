@@ -1,4 +1,5 @@
 import { Collection, Message } from "discord.js";
+import { safeSend } from "../utils/safeSend";
 
 const casais = new Map<string, string>();
 
@@ -17,13 +18,10 @@ export default async function casar(message: Message) {
     return message.reply("💔 Um dos usuários já está em um relacionamento.");
   }
 
-  if ("send" in message.channel) {
-    await message.channel.send(
-      `${mentionedUser}, você aceita se casar com ${message.author}? 💍\nResponda com **sim** ou **não**.`
-    );
-  } else {
-    console.log("Canal não suporta enviar mensagem");
-  }
+  await safeSend(
+    message.channel,
+    `${mentionedUser}, você aceita se casar com ${message.author}? 💍\nResponda com **sim** ou **não**.`
+  );
 
   const filter = (m: Message) =>
     m.author.id === mentionedUser.id &&
@@ -41,31 +39,24 @@ export default async function casar(message: Message) {
       casais.set(message.author.id, mentionedUser.id);
       casais.set(mentionedUser.id, message.author.id);
 
-      if ("send" in message.channel) {
-        await message.channel.send(
-          `🎉 Parabéns ${message.author} e ${mentionedUser}, vocês agora estão casados! 💖`
-        );
-      } else {
-        console.log("Canal não suporta enviar mensagem");
-      }
+      await safeSend(
+        message.channel,
+        `🎉 Parabéns ${message.author} e ${mentionedUser}, vocês agora estão casados! 💖`
+      );
     } else {
-      if ("send" in message.channel) {
-        await message.channel.send(
-          `😢 Que pena, ${message.author}, ${mentionedUser} recusou o pedido.`
-        );
-      } else {
-        console.log("Canal não suporta enviar mensagem");
-      }
+      await safeSend(
+        message.channel,
+        `😢 Que pena, ${message.author}, ${mentionedUser} recusou o pedido.`
+      );
     }
   });
 
   collector.on("end", async (collected: Collection<string, Message>) => {
     if (collected.size === 0) {
-      if ("send" in message.channel) {
-        message.channel.send(
-          "⏰ Tempo esgotado! O pedido de casamento expirou."
-        );
-      }
+      await safeSend(
+        message.channel,
+        "⏰ Tempo esgotado! O pedido de casamento expirou."
+      );
     }
   });
 }

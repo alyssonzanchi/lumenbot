@@ -1,5 +1,6 @@
 import { Collection, Message } from "discord.js";
 import quizData from "../data/quiz.json";
+import { safeSend } from "../utils/safeSend";
 
 interface QuizQuestion {
   question: string;
@@ -28,9 +29,7 @@ export default async function quiz(message: Message) {
       shuffled.map((ans, i) => `**${letterMap[i]})** ${ans}`).join("\n") +
       `\n\nResponda com A, B, C ou D`;
 
-    if ("send" in message.channel) {
-      await message.channel.send(questionText);
-    }
+    await safeSend(message.channel, questionText);
 
     const filter = (m: Message) =>
       m.author.id === message.author.id &&
