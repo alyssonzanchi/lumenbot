@@ -1,0 +1,779 @@
+[
+  {
+    "question": "Qual o nome verdadeiro do Homem-Aranha?",
+    "correct_answer": "Peter Parker",
+    "incorrect_answers": ["Bruce Wayne", "Clark Kent", "Tony Stark"]
+  },
+  {
+    "question": "Quem criou o universo da Marvel?",
+    "correct_answer": "Stan Lee",
+    "incorrect_answers": ["Bob Kane", "Jack Kirby", "Joe Shuster"]
+  },
+  {
+    "question": "Qual é o codinome do herói Bruce Wayne?",
+    "correct_answer": "Batman",
+    "incorrect_answers": ["Superman", "Homem de Ferro", "Flash"]
+  },
+  {
+    "question": "Qual herói usa um escudo como arma principal?",
+    "correct_answer": "Capitão América",
+    "incorrect_answers": ["Homem de Ferro", "Thor", "Hulk"]
+  },
+  {
+    "question": "Qual é o nome do vilão que estala os dedos em Vingadores: Guerra Infinita?",
+    "correct_answer": "Thanos",
+    "incorrect_answers": ["Loki", "Ultron", "Galactus"]
+  },
+  {
+    "question": "Quem é o alter ego do Hulk?",
+    "correct_answer": "Bruce Banner",
+    "incorrect_answers": ["Tony Stark", "Steve Rogers", "Clark Kent"]
+  },
+  {
+    "question": "Em que cidade se passa a maioria das histórias do Batman?",
+    "correct_answer": "Gotham",
+    "incorrect_answers": ["Metropolis", "Nova York", "Chicago"]
+  },
+  {
+    "question": "Qual o nome do martelo do Thor?",
+    "correct_answer": "Mjölnir",
+    "incorrect_answers": ["Stormbreaker", "Excalibur", "Gungnir"]
+  },
+  {
+    "question": "Quem é o diretor da S.H.I.E.L.D. nos filmes da Marvel?",
+    "correct_answer": "Nick Fury",
+    "incorrect_answers": ["Tony Stark", "Phil Coulson", "Steve Rogers"]
+  },
+  {
+    "question": "Qual é o superpoder do Demolidor?",
+    "correct_answer": "Sentidos aguçados",
+    "incorrect_answers": ["Voo", "Força sobre-humana", "Teletransporte"]
+  },
+  {
+    "question": "Qual é o nome da inteligência artificial do Homem de Ferro?",
+    "correct_answer": "JARVIS",
+    "incorrect_answers": ["FRIDAY", "SIRI", "ULTRON"]
+  },
+  {
+    "question": "Quem é o inimigo clássico do Quarteto Fantástico?",
+    "correct_answer": "Doutor Destino",
+    "incorrect_answers": ["Thanos", "Galactus", "Loki"]
+  },
+  {
+    "question": "Qual é a identidade secreta da Supergirl?",
+    "correct_answer": "Kara Danvers",
+    "incorrect_answers": ["Diana Prince", "Barbara Gordon", "Lois Lane"]
+  },
+  {
+    "question": "Qual membro dos X-Men possui garras de adamantium?",
+    "correct_answer": "Wolverine",
+    "incorrect_answers": ["Ciclope", "Magneto", "Noturno"]
+  },
+  {
+    "question": "Qual é a fraqueza do Superman?",
+    "correct_answer": "Kriptonita",
+    "incorrect_answers": ["Fogo", "Água", "Som"]
+  },
+  {
+    "question": "Qual é o nome da cidade onde mora o Superman?",
+    "correct_answer": "Metrópolis",
+    "incorrect_answers": ["Gotham", "Nova York", "Central City"]
+  },
+  {
+    "question": "Quem é o velocista conhecido como Flash?",
+    "correct_answer": "Barry Allen",
+    "incorrect_answers": ["Clark Kent", "Bruce Wayne", "Hal Jordan"]
+  },
+  {
+    "question": "Qual é o nome da amazona que se torna a Mulher-Maravilha?",
+    "correct_answer": "Diana",
+    "incorrect_answers": ["Kara", "Selina", "Lois"]
+  },
+  {
+    "question": "Qual é o nome do pai do Loki e Thor?",
+    "correct_answer": "Odin",
+    "incorrect_answers": ["Zeus", "Hades", "Ares"]
+  },
+  {
+    "question": "Qual é o planeta natal do Superman?",
+    "correct_answer": "Krypton",
+    "incorrect_answers": ["Terra", "Marte", "Namekusei"]
+  },
+  {
+    "question": "Quem é o parceiro do Batman?",
+    "correct_answer": "Robin",
+    "incorrect_answers": ["Alfred", "Superman", "Coringa"]
+  },
+  {
+    "question": "Qual é o nome do herói que encolhe com partículas Pym?",
+    "correct_answer": "Homem-Formiga",
+    "incorrect_answers": ["Vespa", "Homem-Aranha", "Capitão América"]
+  },
+  {
+    "question": "Qual é o nome do vilão que controla o caos em WandaVision?",
+    "correct_answer": "Agatha Harkness",
+    "incorrect_answers": ["Ultron", "Loki", "Thanos"]
+  },
+  {
+    "question": "Qual é o verdadeiro nome do Pantera Negra?",
+    "correct_answer": "T'Challa",
+    "incorrect_answers": ["Killmonger", "Shuri", "M'Baku"]
+  },
+  {
+    "question": "Quem é o Cavaleiro da Lua?",
+    "correct_answer": "Marc Spector",
+    "incorrect_answers": ["Stephen Strange", "Matt Murdock", "Peter Quill"]
+  },
+  {
+    "question": "Quem é o pai do Peter Quill em Guardiões da Galáxia 2?",
+    "correct_answer": "Ego",
+    "incorrect_answers": ["Yondu", "Thanos", "Rocket"]
+  },
+  {
+    "question": "Quem é o vilão principal de Vingadores: Era de Ultron?",
+    "correct_answer": "Ultron",
+    "incorrect_answers": ["Thanos", "Loki", "Zemo"]
+  },
+  {
+    "question": "Qual é o nome da namorada do Tony Stark?",
+    "correct_answer": "Pepper Potts",
+    "incorrect_answers": ["Jane Foster", "Wanda Maximoff", "Natasha Romanoff"]
+  },
+  {
+    "question": "Qual é o nome da versão maligna do Superman em Injustice?",
+    "correct_answer": "Superman Tirano",
+    "incorrect_answers": ["Ultraman", "Dark Superman", "Homem de Aço Negro"]
+  },
+  {
+    "question": "Qual é o símbolo no peito do Shazam?",
+    "correct_answer": "Raio",
+    "incorrect_answers": ["Estrela", "S", "Águia"]
+  },
+  {
+    "question": "Qual empresa desenvolveu o jogo The Legend of Zelda?",
+    "correct_answer": "Nintendo",
+    "incorrect_answers": ["Sony", "Microsoft", "Sega"]
+  },
+  {
+    "question": "Qual é o nome do protagonista da série Halo?",
+    "correct_answer": "Master Chief",
+    "incorrect_answers": ["Commander Shepard", "Marcus Fenix", "Gordon Freeman"]
+  },
+  {
+    "question": "Em qual jogo encontramos o personagem Kratos?",
+    "correct_answer": "God of War",
+    "incorrect_answers": ["Dark Souls", "Assassin's Creed", "Doom"]
+  },
+  {
+    "question": "Qual é o nome da princesa que Mario geralmente tenta salvar?",
+    "correct_answer": "Peach",
+    "incorrect_answers": ["Daisy", "Zelda", "Pauline"]
+  },
+  {
+    "question": "Qual franquia é famosa por seu lema: 'Gotta Catch ‘Em All'?",
+    "correct_answer": "Pokémon",
+    "incorrect_answers": ["Digimon", "Yu-Gi-Oh!", "Bakugan"]
+  },
+  {
+    "question": "Qual personagem é conhecido por sua espada gigante em Final Fantasy VII?",
+    "correct_answer": "Cloud Strife",
+    "incorrect_answers": ["Sephiroth", "Zack Fair", "Tidus"]
+  },
+  {
+    "question": "Em que jogo você caça monstros gigantes com armas enormes?",
+    "correct_answer": "Monster Hunter",
+    "incorrect_answers": ["Dark Souls", "Horizon Zero Dawn", "Bloodborne"]
+  },
+  {
+    "question": "Qual é o nome do encanador irmão de Mario?",
+    "correct_answer": "Luigi",
+    "incorrect_answers": ["Toad", "Yoshi", "Wario"]
+  },
+  {
+    "question": "Em qual cidade se passa GTA: Vice City?",
+    "correct_answer": "Vice City",
+    "incorrect_answers": ["Liberty City", "San Andreas", "Los Santos"]
+  },
+  {
+    "question": "Qual jogo popular apresenta o modo Battle Royale com construção?",
+    "correct_answer": "Fortnite",
+    "incorrect_answers": ["PUBG", "Apex Legends", "Call of Duty: Warzone"]
+  },
+  {
+    "question": "Quem é o protagonista da série Metal Gear?",
+    "correct_answer": "Solid Snake",
+    "incorrect_answers": ["Big Boss", "Sam Fisher", "Raiden"]
+  },
+  {
+    "question": "Qual jogo popular se passa em Hyrule?",
+    "correct_answer": "The Legend of Zelda",
+    "incorrect_answers": ["Xenoblade", "Fire Emblem", "Final Fantasy"]
+  },
+  {
+    "question": "Qual é o nome do personagem principal em The Witcher?",
+    "correct_answer": "Geralt de Rívia",
+    "incorrect_answers": ["Dandelion", "Ciri", "Yennefer"]
+  },
+  {
+    "question": "Em que jogo você joga como um caçador de zumbis chamado Leon S. Kennedy?",
+    "correct_answer": "Resident Evil",
+    "incorrect_answers": ["The Last of Us", "Dying Light", "Dead Rising"]
+  },
+  {
+    "question": "Qual série de jogos é famosa por sua dificuldade extrema?",
+    "correct_answer": "Dark Souls",
+    "incorrect_answers": ["The Elder Scrolls", "Dragon Age", "Fable"]
+  },
+  {
+    "question": "Qual jogo tem personagens chamados Steve e Creeper?",
+    "correct_answer": "Minecraft",
+    "incorrect_answers": ["Terraria", "Roblox", "Ark"]
+  },
+  {
+    "question": "Qual é o nome da franquia de corrida com cascos de tartaruga?",
+    "correct_answer": "Mario Kart",
+    "incorrect_answers": ["Gran Turismo", "Need for Speed", "F-Zero"]
+  },
+  {
+    "question": "Qual jogo da FromSoftware é ambientado no Japão feudal?",
+    "correct_answer": "Sekiro: Shadows Die Twice",
+    "incorrect_answers": ["Elden Ring", "Nioh", "Ghost of Tsushima"]
+  },
+  {
+    "question": "Qual é o nome do mundo em que se passa Skyrim?",
+    "correct_answer": "Tamriel",
+    "incorrect_answers": ["Hyrule", "Azeroth", "Thedas"]
+  },
+  {
+    "question": "Quem é o criador da série Metal Gear?",
+    "correct_answer": "Hideo Kojima",
+    "incorrect_answers": ["Shigeru Miyamoto", "Gabe Newell", "Todd Howard"]
+  },
+  {
+    "question": "Qual jogo foi lançado junto com o PS5 e se passa no espaço?",
+    "correct_answer": "Returnal",
+    "incorrect_answers": [
+      "Ratchet & Clank",
+      "Demon's Souls",
+      "Astro's Playroom"
+    ]
+  },
+  {
+    "question": "Em que jogo você controla Arthur Morgan?",
+    "correct_answer": "Red Dead Redemption 2",
+    "incorrect_answers": ["GTA V", "L.A. Noire", "Call of Juarez"]
+  },
+  {
+    "question": "Qual é o nome do personagem principal da série Assassin’s Creed II?",
+    "correct_answer": "Ezio Auditore",
+    "incorrect_answers": ["Altaïr Ibn-La'Ahad", "Connor Kenway", "Bayek"]
+  },
+  {
+    "question": "Qual série tem personagens chamados Ryu e Ken?",
+    "correct_answer": "Street Fighter",
+    "incorrect_answers": ["Tekken", "Mortal Kombat", "King of Fighters"]
+  },
+  {
+    "question": "Qual é o nome do robô amarelo em Overwatch?",
+    "correct_answer": "Bastion",
+    "incorrect_answers": ["Wrecking Ball", "Orisa", "Sigma"]
+  },
+  {
+    "question": "Qual é o nome do protagonista de Half-Life?",
+    "correct_answer": "Gordon Freeman",
+    "incorrect_answers": ["Alyx Vance", "Isaac Clarke", "Jack Cooper"]
+  },
+  {
+    "question": "Qual é o nome do jogo onde você cozinha em equipe sob pressão?",
+    "correct_answer": "Overcooked",
+    "incorrect_answers": ["Cook Simulator", "Just Cook", "Diner Dash"]
+  },
+  {
+    "question": "Qual desses jogos é da franquia Soulsborne?",
+    "correct_answer": "Bloodborne",
+    "incorrect_answers": ["Doom Eternal", "Cyberpunk 2077", "Far Cry 5"]
+  },
+  {
+    "question": "Qual é o nome da personagem principal de Horizon Zero Dawn?",
+    "correct_answer": "Aloy",
+    "incorrect_answers": ["Ellie", "Lara", "Ciri"]
+  },
+  {
+    "question": "Em qual desses jogos você constrói parques de diversão?",
+    "correct_answer": "RollerCoaster Tycoon",
+    "incorrect_answers": ["The Sims", "Zoo Tycoon", "SimCity"]
+  },
+  {
+    "question": "Qual é o nome completo do protagonista de Death Note?",
+    "correct_answer": "Light Yagami",
+    "incorrect_answers": ["L Lawliet", "Shikamaru Nara", "Ichigo Kurosaki"]
+  },
+  {
+    "question": "Em Dragon Ball Z, quem foi o primeiro a se transformar em Super Saiyajin?",
+    "correct_answer": "Goku",
+    "incorrect_answers": ["Vegeta", "Gohan", "Trunks"]
+  },
+  {
+    "question": "Qual é o nome do demônio que acompanha Light em Death Note?",
+    "correct_answer": "Ryuk",
+    "incorrect_answers": ["Rem", "Kira", "Zabuza"]
+  },
+  {
+    "question": "Qual é o principal objetivo de Luffy em One Piece?",
+    "correct_answer": "Encontrar o One Piece",
+    "incorrect_answers": [
+      "Ser o rei dos piratas",
+      "Vingar sua tripulação",
+      "Dominar a Grand Line"
+    ]
+  },
+  {
+    "question": "Qual é o nome do protagonista de Naruto?",
+    "correct_answer": "Naruto Uzumaki",
+    "incorrect_answers": ["Sasuke Uchiha", "Kakashi Hatake", "Boruto Uzumaki"]
+  },
+  {
+    "question": "Qual é o poder especial de Gon em Hunter x Hunter?",
+    "correct_answer": "Nen",
+    "incorrect_answers": ["Haki", "Chakra", "Bankai"]
+  },
+  {
+    "question": "Quem é o Titã de Ataque em Shingeki no Kyojin (Attack on Titan)?",
+    "correct_answer": "Eren Yeager",
+    "incorrect_answers": ["Levi Ackerman", "Zeke Yeager", "Armin Arlert"]
+  },
+  {
+    "question": "Qual anime se passa em uma escola de heróis?",
+    "correct_answer": "My Hero Academia",
+    "incorrect_answers": ["Bleach", "Tokyo Ghoul", "One Punch Man"]
+  },
+  {
+    "question": "Quem é o autor de Naruto?",
+    "correct_answer": "Masashi Kishimoto",
+    "incorrect_answers": ["Eiichiro Oda", "Akira Toriyama", "Tite Kubo"]
+  },
+  {
+    "question": "Qual é o verdadeiro nome de L em Death Note?",
+    "correct_answer": "L Lawliet",
+    "incorrect_answers": ["Kira Yagami", "Light Lawliet", "Raito Ryuk"]
+  },
+  {
+    "question": "Em qual anime encontramos os personagens Edward e Alphonse Elric?",
+    "correct_answer": "Fullmetal Alchemist",
+    "incorrect_answers": ["Bleach", "D.Gray-man", "Blue Exorcist"]
+  },
+  {
+    "question": "Qual é a habilidade principal de Goku?",
+    "correct_answer": "Kamehameha",
+    "incorrect_answers": ["Rasengan", "Getsuga Tenshou", "Detroit Smash"]
+  },
+  {
+    "question": "Quem é o protagonista de One Punch Man?",
+    "correct_answer": "Saitama",
+    "incorrect_answers": ["Genos", "Garou", "Tornado"]
+  },
+  {
+    "question": "Em qual anime os personagens lutam usando cartas?",
+    "correct_answer": "Yu-Gi-Oh!",
+    "incorrect_answers": ["Digimon", "Pokémon", "Beyblade"]
+  },
+  {
+    "question": "Qual é o principal rival de Naruto?",
+    "correct_answer": "Sasuke Uchiha",
+    "incorrect_answers": ["Shikamaru Nara", "Rock Lee", "Neji Hyuga"]
+  },
+  {
+    "question": "Qual é o nome da organização de vilões em Naruto?",
+    "correct_answer": "Akatsuki",
+    "incorrect_answers": ["Espada", "Phantom Troupe", "League of Villains"]
+  },
+  {
+    "question": "Quem é o criador de Dragon Ball?",
+    "correct_answer": "Akira Toriyama",
+    "incorrect_answers": [
+      "Eiichiro Oda",
+      "Masashi Kishimoto",
+      "Yoshihiro Togashi"
+    ]
+  },
+  {
+    "question": "Qual anime é conhecido por seu enredo trágico envolvendo alquimia e sacrifício?",
+    "correct_answer": "Fullmetal Alchemist: Brotherhood",
+    "incorrect_answers": ["Bleach", "Inuyasha", "Attack on Titan"]
+  },
+  {
+    "question": "Qual personagem de Bleach é conhecido por empunhar a Zangetsu?",
+    "correct_answer": "Ichigo Kurosaki",
+    "incorrect_answers": ["Uryu Ishida", "Renji Abarai", "Byakuya Kuchiki"]
+  },
+  {
+    "question": "Em Tokyo Ghoul, qual parte do corpo é alterada nos ghouls?",
+    "correct_answer": "Olhos",
+    "incorrect_answers": ["Pele", "Braços", "Pernas"]
+  },
+  {
+    "question": "Em Sword Art Online, qual é o nome do mundo virtual original?",
+    "correct_answer": "Aincrad",
+    "incorrect_answers": ["Alfheim", "Underworld", "Midgard"]
+  },
+  {
+    "question": "Em Demon Slayer, quem é o irmão de Nezuko?",
+    "correct_answer": "Tanjiro Kamado",
+    "incorrect_answers": [
+      "Zenitsu Agatsuma",
+      "Inosuke Hashibira",
+      "Kyojuro Rengoku"
+    ]
+  },
+  {
+    "question": "Qual é o nome do robô gigante em Neon Genesis Evangelion?",
+    "correct_answer": "Evangelion",
+    "incorrect_answers": ["Gunbuster", "Gundam", "Mazinger"]
+  },
+  {
+    "question": "Qual anime segue um assassino de assassinos chamado Killua?",
+    "correct_answer": "Hunter x Hunter",
+    "incorrect_answers": ["Death Note", "Bleach", "Naruto"]
+  },
+  {
+    "question": "Quem é o melhor amigo de Goku desde a infância?",
+    "correct_answer": "Krillin",
+    "incorrect_answers": ["Piccolo", "Yamcha", "Tien"]
+  },
+  {
+    "question": "Qual é o objetivo de Edward Elric em Fullmetal Alchemist?",
+    "correct_answer": "Recuperar o corpo de seu irmão",
+    "incorrect_answers": [
+      "Vingar seus pais",
+      "Derrotar o pai",
+      "Encontrar a Pedra Filosofal"
+    ]
+  },
+  {
+    "question": "Qual desses animes se passa em um colégio onde estudantes devem matar seu professor?",
+    "correct_answer": "Assassination Classroom",
+    "incorrect_answers": [
+      "Great Teacher Onizuka",
+      "Baka and Test",
+      "Classroom of the Elite"
+    ]
+  },
+  {
+    "question": "Em qual anime há uma batalha entre shinigamis e hollows?",
+    "correct_answer": "Bleach",
+    "incorrect_answers": ["Death Parade", "Noragami", "Black Clover"]
+  },
+  {
+    "question": "Qual personagem tem a peculiaridade 'One For All'?",
+    "correct_answer": "Izuku Midoriya",
+    "incorrect_answers": ["Bakugo Katsuki", "All For One", "Shoto Todoroki"]
+  },
+  {
+    "question": "Qual anime retrata um protagonista preso em um loop temporal sangrento?",
+    "correct_answer": "Re:Zero",
+    "incorrect_answers": ["Steins;Gate", "Tokyo Revengers", "Erased"]
+  },
+  {
+    "question": "Qual é o nome do martelo de Thor?",
+    "correct_answer": "Mjolnir",
+    "incorrect_answers": ["Stormbreaker", "Gungnir", "Excalibur"]
+  },
+  {
+    "question": "Qual personagem da Marvel é conhecido como o 'Homem de Ferro'?",
+    "correct_answer": "Tony Stark",
+    "incorrect_answers": ["Steve Rogers", "Bruce Banner", "Peter Parker"]
+  },
+  {
+    "question": "Qual é o verdadeiro nome do Batman?",
+    "correct_answer": "Bruce Wayne",
+    "incorrect_answers": ["Clark Kent", "Peter Parker", "Tony Stark"]
+  },
+  {
+    "question": "Qual é o nome do planeta natal do Superman?",
+    "correct_answer": "Krypton",
+    "incorrect_answers": ["Terra", "Marte", "Asgard"]
+  },
+  {
+    "question": "Qual herói da Marvel tem um escudo feito de vibranium?",
+    "correct_answer": "Capitão América",
+    "incorrect_answers": ["Homem de Ferro", "Pantera Negra", "Gavião Arqueiro"]
+  },
+  {
+    "question": "Quem é o criador do universo Star Wars?",
+    "correct_answer": "George Lucas",
+    "incorrect_answers": ["Steven Spielberg", "J.J. Abrams", "James Cameron"]
+  },
+  {
+    "question": "Em 'O Senhor dos Anéis', quem é o portador original do Um Anel?",
+    "correct_answer": "Sauron",
+    "incorrect_answers": ["Frodo", "Bilbo", "Gandalf"]
+  },
+  {
+    "question": "Qual série popular é baseada nos livros de George R. R. Martin?",
+    "correct_answer": "Game of Thrones",
+    "incorrect_answers": ["The Witcher", "Shadow and Bone", "The Wheel of Time"]
+  },
+  {
+    "question": "Qual é o nome da escola onde estudam os X-Men?",
+    "correct_answer": "Instituto Xavier",
+    "incorrect_answers": ["Escola Hogwarts", "Colégio Marvel", "Fundação Stark"]
+  },
+  {
+    "question": "Quem foi o primeiro Vingador a ser congelado por décadas?",
+    "correct_answer": "Capitão América",
+    "incorrect_answers": ["Homem de Ferro", "Thor", "Homem-Formiga"]
+  },
+  {
+    "question": "Qual é o nome do robô dourado em Star Wars?",
+    "correct_answer": "C-3PO",
+    "incorrect_answers": ["R2-D2", "BB-8", "IG-11"]
+  },
+  {
+    "question": "Qual é o nome da inteligência artificial de Tony Stark?",
+    "correct_answer": "J.A.R.V.I.S.",
+    "incorrect_answers": ["Friday", "Ultron", "Siri"]
+  },
+  {
+    "question": "Em 'Matrix', qual pílula Neo escolhe?",
+    "correct_answer": "A vermelha",
+    "incorrect_answers": ["A azul", "A verde", "A preta"]
+  },
+  {
+    "question": "Quem é o pai de Luke Skywalker?",
+    "correct_answer": "Darth Vader",
+    "incorrect_answers": ["Obi-Wan Kenobi", "Yoda", "Han Solo"]
+  },
+  {
+    "question": "Qual é o alter ego do Hulk?",
+    "correct_answer": "Bruce Banner",
+    "incorrect_answers": ["Tony Stark", "Clark Kent", "Peter Parker"]
+  },
+  {
+    "question": "Quem é o vilão principal em 'Vingadores: Guerra Infinita'?",
+    "correct_answer": "Thanos",
+    "incorrect_answers": ["Loki", "Ultron", "Red Skull"]
+  },
+  {
+    "question": "Qual é o nome do irmão de Thor?",
+    "correct_answer": "Loki",
+    "incorrect_answers": ["Heimdall", "Odin", "Frigga"]
+  },
+  {
+    "question": "Qual série da Netflix mostra um grupo de crianças enfrentando criaturas de outra dimensão?",
+    "correct_answer": "Stranger Things",
+    "incorrect_answers": ["Dark", "Locke & Key", "The Umbrella Academy"]
+  },
+  {
+    "question": "Qual é o nome do universo compartilhado dos filmes da Marvel?",
+    "correct_answer": "MCU",
+    "incorrect_answers": ["DCEU", "MMU", "Marvel Cinematic World"]
+  },
+  {
+    "question": "Qual super-herói usa um laço da verdade?",
+    "correct_answer": "Mulher-Maravilha",
+    "incorrect_answers": ["Capitã Marvel", "Viúva Negra", "Jean Grey"]
+  },
+  {
+    "question": "Qual é o nome do caçador de recompensas em 'O Mandaloriano'?",
+    "correct_answer": "Din Djarin",
+    "incorrect_answers": ["Boba Fett", "Jango Fett", "Kylo Ren"]
+  },
+  {
+    "question": "Em 'De Volta para o Futuro', qual é o nome do cientista?",
+    "correct_answer": "Doc Brown",
+    "incorrect_answers": ["Rick Sanchez", "Walter White", "Dr. Emmett"]
+  },
+  {
+    "question": "Qual é o nome do vilão em 'Pantera Negra'?",
+    "correct_answer": "Killmonger",
+    "incorrect_answers": ["M'Baku", "Ultron", "Rhino"]
+  },
+  {
+    "question": "Quem criou o Capitão América nos quadrinhos?",
+    "correct_answer": "Joe Simon e Jack Kirby",
+    "incorrect_answers": [
+      "Stan Lee e Steve Ditko",
+      "Bob Kane e Bill Finger",
+      "Frank Miller"
+    ]
+  },
+  {
+    "question": "Qual é o nome do jogo onde personagens lutam com espadas de luz em um universo digital?",
+    "correct_answer": "Sword Art Online",
+    "incorrect_answers": ["Ready Player One", "The Matrix Online", "Tron"]
+  },
+  {
+    "question": "Qual série tem personagens chamados Sheldon, Leonard e Penny?",
+    "correct_answer": "The Big Bang Theory",
+    "incorrect_answers": ["Friends", "How I Met Your Mother", "Community"]
+  },
+  {
+    "question": "Quem é o ator que interpreta Deadpool?",
+    "correct_answer": "Ryan Reynolds",
+    "incorrect_answers": ["Chris Evans", "Chris Pratt", "Jake Gyllenhaal"]
+  },
+  {
+    "question": "Qual o nome do primeiro filme do MCU?",
+    "correct_answer": "Homem de Ferro",
+    "incorrect_answers": [
+      "Capitão América: O Primeiro Vingador",
+      "Thor",
+      "O Incrível Hulk"
+    ]
+  },
+  {
+    "question": "Qual é o nome da espada de Frodo em 'O Senhor dos Anéis'?",
+    "correct_answer": "Sting",
+    "incorrect_answers": ["Andúril", "Glamdring", "Orcrist"]
+  },
+  {
+    "question": "Qual personagem da DC é conhecido por correr em alta velocidade?",
+    "correct_answer": "Flash",
+    "incorrect_answers": ["Aquaman", "Lanterna Verde", "Arqueiro Verde"]
+  },
+  {
+    "question": "Qual é o nome do protagonista de 'The Legend of Zelda'?",
+    "correct_answer": "Link",
+    "incorrect_answers": ["Zelda", "Ganon", "Epona"]
+  },
+  {
+    "question": "Em 'Naruto', qual é o nome do clã do personagem Sasuke?",
+    "correct_answer": "Uchiha",
+    "incorrect_answers": ["Hyuga", "Senju", "Akimichi"]
+  },
+  {
+    "question": "Qual console foi lançado pela Sony em 1994?",
+    "correct_answer": "PlayStation",
+    "incorrect_answers": ["Nintendo 64", "Sega Saturn", "Xbox"]
+  },
+  {
+    "question": "Quem é o criador do anime 'Death Note'?",
+    "correct_answer": "Tsugumi Ohba",
+    "incorrect_answers": ["Masashi Kishimoto", "Eiichiro Oda", "Tite Kubo"]
+  },
+  {
+    "question": "Qual é o nome do robô companheiro de Mega Man?",
+    "correct_answer": "Rush",
+    "incorrect_answers": ["Roll", "Protoman", "Bass"]
+  },
+  {
+    "question": "Em 'One Piece', quem é o capitão dos Chapéus de Palha?",
+    "correct_answer": "Monkey D. Luffy",
+    "incorrect_answers": ["Roronoa Zoro", "Sanji", "Trafalgar Law"]
+  },
+  {
+    "question": "Qual é o nome da nave principal em 'Halo'?",
+    "correct_answer": "Pillar of Autumn",
+    "incorrect_answers": ["Normandy", "Serenity", "Enterprise"]
+  },
+  {
+    "question": "Qual é o poder principal do personagem 'Ichigo Kurosaki' em 'Bleach'?",
+    "correct_answer": "Shinigami",
+    "incorrect_answers": ["Quincy", "Hollow", "Arrancar"]
+  },
+  {
+    "question": "Qual jogo é conhecido pelo personagem 'Master Chief'?",
+    "correct_answer": "Halo",
+    "incorrect_answers": ["Call of Duty", "Gears of War", "Destiny"]
+  },
+  {
+    "question": "Qual é o nome do universo onde se passa 'Dragon Ball'?",
+    "correct_answer": "Universo 7",
+    "incorrect_answers": ["Universo 6", "Terra", "Saiyajins"]
+  },
+  {
+    "question": "Quem é o autor do mangá 'Attack on Titan'?",
+    "correct_answer": "Hajime Isayama",
+    "incorrect_answers": ["Yoshihiro Togashi", "Tite Kubo", "Eiichiro Oda"]
+  },
+  {
+    "question": "Qual é o nome do principal vilão em 'Resident Evil 2'?",
+    "correct_answer": "William Birkin",
+    "incorrect_answers": ["Albert Wesker", "Nemesis", "Leon Kennedy"]
+  },
+  {
+    "question": "Em 'My Hero Academia', qual é o nome do protagonista?",
+    "correct_answer": "Izuku Midoriya",
+    "incorrect_answers": ["Katsuki Bakugo", "Shoto Todoroki", "All Might"]
+  },
+  {
+    "question": "Qual jogo popular tem o modo chamado 'Battle Royale' lançado em 2017?",
+    "correct_answer": "Fortnite",
+    "incorrect_answers": ["PUBG", "Apex Legends", "Call of Duty: Warzone"]
+  },
+  {
+    "question": "Qual é o nome do dragão que acompanha o protagonista em 'Dragon Ball'?",
+    "correct_answer": "Shenlong",
+    "incorrect_answers": ["Porunga", "Falkor", "Draco"]
+  },
+  {
+    "question": "Qual série de anime apresenta o conceito de 'Alquimia' como elemento central?",
+    "correct_answer": "Fullmetal Alchemist",
+    "incorrect_answers": ["Naruto", "Bleach", "One Piece"]
+  },
+  {
+    "question": "Em 'Overwatch', qual personagem é um arqueiro habilidoso?",
+    "correct_answer": "Hanzo",
+    "incorrect_answers": ["Genji", "McCree", "Soldier: 76"]
+  },
+  {
+    "question": "Qual é o nome do planeta onde se passa a maior parte da história de 'Mass Effect'?",
+    "correct_answer": "Terra",
+    "incorrect_answers": ["Palaven", "Eden Prime", "Citadel"]
+  },
+  {
+    "question": "Qual é o nome do irmão mais velho de Naruto?",
+    "correct_answer": "Não tem irmão",
+    "incorrect_answers": ["Sasuke", "Boruto", "Minato"]
+  },
+  {
+    "question": "Em 'Persona 5', qual é o nome da protagonista feminina jogável?",
+    "correct_answer": "Makoto Niijima",
+    "incorrect_answers": ["Futaba Sakura", "Ann Takamaki", "Haru Okumura"]
+  },
+  {
+    "question": "Qual é o nome da espada de Guts em 'Berserk'?",
+    "correct_answer": "Dragonslayer",
+    "incorrect_answers": ["Excalibur", "Zangetsu", "Tessaiga"]
+  },
+  {
+    "question": "Qual jogo da Nintendo apresenta um mascote chamado 'Samus Aran'?",
+    "correct_answer": "Metroid",
+    "incorrect_answers": ["Zelda", "Kirby", "Star Fox"]
+  },
+  {
+    "question": "Qual anime tem como tema central um apocalipse zumbi?",
+    "correct_answer": "Highschool of the Dead",
+    "incorrect_answers": ["Tokyo Ghoul", "Attack on Titan", "Black Bullet"]
+  },
+  {
+    "question": "Quem é o vilão principal da saga 'Dragon Ball Z'?",
+    "correct_answer": "Freeza",
+    "incorrect_answers": ["Cell", "Majin Buu", "Vegeta"]
+  },
+  {
+    "question": "Qual série de jogos é conhecida pela frase 'The cake is a lie'?",
+    "correct_answer": "Portal",
+    "incorrect_answers": ["Half-Life", "Left 4 Dead", "Team Fortress"]
+  },
+  {
+    "question": "Qual personagem é conhecido por usar o poder do 'Sharingan'?",
+    "correct_answer": "Sasuke Uchiha",
+    "incorrect_answers": ["Naruto Uzumaki", "Kakashi Hatake", "Itachi Uchiha"]
+  },
+  {
+    "question": "Em 'Dark Souls', qual é o nome do personagem principal?",
+    "correct_answer": "Não há um nome fixo",
+    "incorrect_answers": ["Solaire", "Artorias", "Gwyn"]
+  },
+  {
+    "question": "Qual é o nome do vilão que quer controlar o tempo em 'Steins;Gate'?",
+    "correct_answer": "John Titor",
+    "incorrect_answers": ["Okabe Rintarou", "Kurisu Makise", "Moeka Kiryuu"]
+  },
+  {
+    "question": "Em 'Pokémon', qual é o nome do primeiro Pokémon da pokédex?",
+    "correct_answer": "Bulbasaur",
+    "incorrect_answers": ["Pikachu", "Charmander", "Squirtle"]
+  }
+]
