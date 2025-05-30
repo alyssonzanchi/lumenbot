@@ -1,7 +1,8 @@
 import { Collection, Message } from "discord.js";
 import { safeSend } from "../utils/safeSend";
+import { loadCasais, saveCasais } from "../utils/storage";
 
-const casais = new Map<string, string>();
+let casais = loadCasais();
 
 export default async function casar(message: Message) {
   const mentionedUser = message.mentions.users.first();
@@ -14,7 +15,7 @@ export default async function casar(message: Message) {
     return message.reply("❌ Você não pode casar consigo mesmo.");
   }
 
-  if (casais.has(message.author.id) || casais.has(mentionedUser.id)) {
+  if (casais[message.author.id] || casais[mentionedUser.id]) {
     return message.reply("💔 Um dos usuários já está em um relacionamento.");
   }
 
@@ -36,8 +37,9 @@ export default async function casar(message: Message) {
   collector.on("collect", async (m: Message) => {
     const resposta = m.content.toLowerCase();
     if (resposta === "sim") {
-      casais.set(message.author.id, mentionedUser.id);
-      casais.set(mentionedUser.id, message.author.id);
+      casais[message.author.id] = mentionedUser.id;
+      casais[mentionedUser.id] = message.author.id;
+      saveCasais(casais);
 
       await safeSend(
         message.channel,
